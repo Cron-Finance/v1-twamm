@@ -1,0 +1,5 @@
+@openzeppelin/=node_modules/@openzeppelin/
+@balancer-labs/=node_modules/@balancer-labs/
+prb-math/=node_modules/prb-math/
+@rari-capital/=node_modules/@rari-capital/
+hardhat/=node_modules/hardhat/

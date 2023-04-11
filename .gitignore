@@ -1,0 +1,19 @@
+lcov.info
+tags
+hh-cache
+node_modules
+.env
+coverage
+coverage.json
+typechain
+.vscode
+.DS_Store
+
+#Hardhat files
+cache
+artifacts
+out
+dist
+
+#Data files
+*.csv

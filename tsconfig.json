@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "allowJs": true,          /* Allow javascript files to be compiled. */
+    "target": "es2020",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "outDir": "dist",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "baseUrl": "./",
+    "paths": {
+      "test": ["./test"],
+      "test/*": ["./test/*"],
+      "typechain/*": ["./typechain/*"]
+    }
+  },
+  "include": [
+    "./scripts",
+    "./test",
+    "./typechain"
+  ],
+  "files": ["./hardhat.config.ts", "./hardhat.config.test.ts"],
+  "exclude": [
+    "google-cloud-sdk",
+    "node-modules",
+    "token_balance_cache",
+    "transaction_cache",
+    "./dist/**/*"
+  ]
+}

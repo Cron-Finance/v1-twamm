@@ -1,0 +1,3933 @@
+[
+  {
+    "description": "All values fixed-point 18 decimal values.\nBenchmark test configured as follows:\n   Simulation:\n      length = 2000 blocks\n      inactivity: 2 segments, min. 300 blocks\n\n   TWAMM Pool:\n      block interval = 10\n      initial reserve A = 5000\n      initial reserve B = 3000\n   Inactivity Segments:\n      466 <---> 766   (start <---> end)\n      1232 <---> 1532   (start <---> end)\n   Overlap:\n      45 events overlap (458 events total)\n   Provide Liquidity Events:\n      10 inserted (10 specified)\n      LP tokens:\n         initial supply = 3872\n         provide mean = 774\n         provide std. dev. = 77\n   Remove Liquidity Events:\n      5 inserted (5 specified)\n   LT Swap Events:\n      30 inserted (30 specified)\n      65% A --> B swaps specified\n      amount mean = 150 A, 90 B\n      amount std. dev. = 15 A, 9 B\n      length mean = 20 intervals\n      length std. dev. = 2 intervals\n   LT Swap Withdraw Events:\n      10 inserted (10 specified)\n   LT Swap Cancel Events:\n      3 inserted (3 specified)\n   Swap Events:\n      400 inserted (400 specified)\n      45 overlapping inserted\n      35% A --> B swaps specified\n      amount mean = 15 A, 9 B\n      amount std. dev. = 1 A, 1 B\n   Execute All Virtual Order Events:\n      10 inserted (10 specified)\n"
+  },
+  {
+    "block": 0,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "14006915024488098000"
+      }
+    ]
+  },
+  {
+    "block": 3,
+    "events": [
+      {
+        "event": "longTermSwapAToB",
+        "amount": "145707509194669000000",
+        "id": 0,
+        "intervals": 22
+      },
+      {
+        "event": "swapBToA",
+        "amount": "9361407405799470000"
+      },
+      {
+        "event": "swapBToA",
+        "amount": "9600714458330788000"
+      }
+    ]
+  },
+  {
+    "block": 6,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8066224301036414000"
+      }
+    ]
+  },
+  {
+    "block": 9,
+    "events": [
+      {
+        "event": "provideLiquidity",
+        "amount": "636000000000000000000",
+        "liquidityId": 0
+      },
+      {
+        "event": "swapBToA",
+        "amount": "10001920454125884000"
+      },
+      {
+        "event": "swapAToB",
+        "amount": "15068643375773675000"
+      }
+    ]
+  },
+  {
+    "block": 12,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8472093578322534000"
+      }
+    ]
+  },
+  {
+    "block": 15,
+    "events": [
+      {
+        "event": "removeLiquidity",
+        "amount": "604000000000000000000",
+        "liquidityId": 0
+      },
+      {
+        "event": "swapBToA",
+        "amount": "9251329041217002000"
+      },
+      {
+        "event": "swapBToA",
+        "amount": "8547672268374079000"
+      }
+    ]
+  },
+  {
+    "block": 18,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "16597651521602558000"
+      }
+    ]
+  },
+  {
+    "block": 21,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "16795422106081528000"
+      }
+    ]
+  },
+  {
+    "block": 24,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "10519225153174311000"
+      }
+    ]
+  },
+  {
+    "block": 27,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8551699416729650000"
+      }
+    ]
+  },
+  {
+    "block": 28,
+    "events": [
+      {
+        "event": "executeAllVirtualOrders"
+      }
+    ]
+  },
+  {
+    "block": 30,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "10897552680610480000"
+      }
+    ]
+  },
+  {
+    "block": 33,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "7477030026614481000"
+      }
+    ]
+  },
+  {
+    "block": 36,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8033860210527683000"
+      }
+    ]
+  },
+  {
+    "block": 39,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "14846605402972768000"
+      }
+    ]
+  },
+  {
+    "block": 42,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "10563990790366617000"
+      }
+    ]
+  },
+  {
+    "block": 45,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8993069899018122000"
+      }
+    ]
+  },
+  {
+    "block": 48,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "13823752096978442000"
+      }
+    ]
+  },
+  {
+    "block": 49,
+    "events": [
+      {
+        "event": "longTermSwapBToA",
+        "amount": "87301037840642500000",
+        "id": 1,
+        "intervals": 18
+      },
+      {
+        "event": "swapAToB",
+        "amount": "15186759416452860000"
+      }
+    ]
+  },
+  {
+    "block": 51,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8613578933060830000"
+      }
+    ]
+  },
+  {
+    "block": 54,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "7227777071200160000"
+      }
+    ]
+  },
+  {
+    "block": 57,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9728004563081882000"
+      }
+    ]
+  },
+  {
+    "block": 60,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9043357812431400000"
+      }
+    ]
+  },
+  {
+    "block": 63,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "10072608012552587000"
+      }
+    ]
+  },
+  {
+    "block": 66,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "10410498290893480000"
+      }
+    ]
+  },
+  {
+    "block": 69,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9873795320638603000"
+      }
+    ]
+  },
+  {
+    "block": 72,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9249713698870606000"
+      }
+    ]
+  },
+  {
+    "block": 75,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9556162701928162000"
+      }
+    ]
+  },
+  {
+    "block": 76,
+    "events": [
+      {
+        "event": "withdrawOrder",
+        "id": 1
+      },
+      {
+        "event": "swapAToB",
+        "amount": "15408227490681483000"
+      }
+    ]
+  },
+  {
+    "block": 78,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9295805835100808000"
+      }
+    ]
+  },
+  {
+    "block": 81,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8472449111476209000"
+      }
+    ]
+  },
+  {
+    "block": 84,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "7358667976294742000"
+      }
+    ]
+  },
+  {
+    "block": 87,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8592900944912019000"
+      }
+    ]
+  },
+  {
+    "block": 90,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "14897576350044504000"
+      }
+    ]
+  },
+  {
+    "block": 93,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "15053551013074172000"
+      }
+    ]
+  },
+  {
+    "block": 95,
+    "events": [
+      {
+        "event": "longTermSwapAToB",
+        "amount": "167791285850252540000",
+        "id": 2,
+        "intervals": 16
+      },
+      {
+        "event": "swapAToB",
+        "amount": "14009991988929166000"
+      }
+    ]
+  },
+  {
+    "block": 96,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8472904825254346000"
+      }
+    ]
+  },
+  {
+    "block": 99,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "15123447733198587000"
+      }
+    ]
+  },
+  {
+    "block": 102,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "15414441385031749000"
+      }
+    ]
+  },
+  {
+    "block": 105,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8560242875160947000"
+      }
+    ]
+  },
+  {
+    "block": 108,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "15126639783426140000"
+      }
+    ]
+  },
+  {
+    "block": 111,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "7845145636873939000"
+      }
+    ]
+  },
+  {
+    "block": 114,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "16732839563982335000"
+      }
+    ]
+  },
+  {
+    "block": 117,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8587818076675072000"
+      }
+    ]
+  },
+  {
+    "block": 120,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9887603451348731000"
+      }
+    ]
+  },
+  {
+    "block": 123,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "15950421372332773000"
+      }
+    ]
+  },
+  {
+    "block": 126,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9435182647578053000"
+      }
+    ]
+  },
+  {
+    "block": 129,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "7107501441365125000"
+      }
+    ]
+  },
+  {
+    "block": 132,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "13568943124145873000"
+      }
+    ]
+  },
+  {
+    "block": 135,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8373266248603720000"
+      }
+    ]
+  },
+  {
+    "block": 138,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "14320334994367977000"
+      }
+    ]
+  },
+  {
+    "block": 141,
+    "events": [
+      {
+        "event": "longTermSwapBToA",
+        "amount": "83234809410772600000",
+        "id": 3,
+        "intervals": 22
+      },
+      {
+        "event": "swapBToA",
+        "amount": "9208908430472826000"
+      },
+      {
+        "event": "swapBToA",
+        "amount": "10366787852144471000"
+      }
+    ]
+  },
+  {
+    "block": 144,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "15446112248442569000"
+      }
+    ]
+  },
+  {
+    "block": 147,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8276762168119017000"
+      }
+    ]
+  },
+  {
+    "block": 148,
+    "events": [
+      {
+        "event": "provideLiquidity",
+        "amount": "764000000000000000000",
+        "liquidityId": 1
+      },
+      {
+        "event": "swapBToA",
+        "amount": "10134419248900253000"
+      }
+    ]
+  },
+  {
+    "block": 150,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "6995581424597211000"
+      }
+    ]
+  },
+  {
+    "block": 153,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "10565691318835594000"
+      }
+    ]
+  },
+  {
+    "block": 154,
+    "events": [
+      {
+        "event": "removeLiquidity",
+        "amount": "725000000000000000000",
+        "liquidityId": 1
+      },
+      {
+        "event": "swapBToA",
+        "amount": "8090106474959853000"
+      }
+    ]
+  },
+  {
+    "block": 156,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "14935708531098750000"
+      }
+    ]
+  },
+  {
+    "block": 159,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8867449100090530000"
+      }
+    ]
+  },
+  {
+    "block": 162,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "15221642020646428000"
+      }
+    ]
+  },
+  {
+    "block": 165,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "14078042344495024000"
+      }
+    ]
+  },
+  {
+    "block": 168,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9793512168098449000"
+      }
+    ]
+  },
+  {
+    "block": 171,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "10015155729891791000"
+      }
+    ]
+  },
+  {
+    "block": 174,
+    "events": [
+      {
+        "event": "withdrawOrder",
+        "id": 3
+      },
+      {
+        "event": "swapBToA",
+        "amount": "7366254625413980000"
+      },
+      {
+        "event": "swapBToA",
+        "amount": "9296791237708263000"
+      }
+    ]
+  },
+  {
+    "block": 177,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9619925625019123000"
+      }
+    ]
+  },
+  {
+    "block": 180,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "13388837255508719000"
+      }
+    ]
+  },
+  {
+    "block": 183,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "7836499862899504000"
+      }
+    ]
+  },
+  {
+    "block": 186,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "10236294240059753000"
+      }
+    ]
+  },
+  {
+    "block": 187,
+    "events": [
+      {
+        "event": "longTermSwapAToB",
+        "amount": "167124489605448160000",
+        "id": 4,
+        "intervals": 21
+      },
+      {
+        "event": "swapBToA",
+        "amount": "8748628817296801000"
+      }
+    ]
+  },
+  {
+    "block": 189,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8831345536971575000"
+      }
+    ]
+  },
+  {
+    "block": 192,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "15359539992279386000"
+      }
+    ]
+  },
+  {
+    "block": 195,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8745001246942918000"
+      }
+    ]
+  },
+  {
+    "block": 198,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "14644686704401904000"
+      }
+    ]
+  },
+  {
+    "block": 201,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9374609684599273000"
+      }
+    ]
+  },
+  {
+    "block": 204,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "7601790272265900000"
+      }
+    ]
+  },
+  {
+    "block": 207,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "7932590427134349000"
+      }
+    ]
+  },
+  {
+    "block": 210,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8286013708649882000"
+      }
+    ]
+  },
+  {
+    "block": 213,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8553661564124920000"
+      }
+    ]
+  },
+  {
+    "block": 216,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8400454567254325000"
+      }
+    ]
+  },
+  {
+    "block": 219,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8605725484292043000"
+      }
+    ]
+  },
+  {
+    "block": 222,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "14349153199700439000"
+      }
+    ]
+  },
+  {
+    "block": 225,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9925988358669631000"
+      }
+    ]
+  },
+  {
+    "block": 228,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "16736217087455590000"
+      }
+    ]
+  },
+  {
+    "block": 231,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "14476584057164630000"
+      }
+    ]
+  },
+  {
+    "block": 233,
+    "events": [
+      {
+        "event": "longTermSwapBToA",
+        "amount": "103216431863313570000",
+        "id": 5,
+        "intervals": 22
+      },
+      {
+        "event": "withdrawOrder",
+        "id": 0
+      },
+      {
+        "event": "swapBToA",
+        "amount": "8660271920385386000"
+      }
+    ]
+  },
+  {
+    "block": 234,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "10349882041193045000"
+      }
+    ]
+  },
+  {
+    "block": 237,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "15264665292891430000"
+      }
+    ]
+  },
+  {
+    "block": 238,
+    "events": [
+      {
+        "event": "executeAllVirtualOrders"
+      }
+    ]
+  },
+  {
+    "block": 240,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9520712471406531000"
+      }
+    ]
+  },
+  {
+    "block": 243,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9615058383859772000"
+      }
+    ]
+  },
+  {
+    "block": 246,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "14366484765717114000"
+      }
+    ]
+  },
+  {
+    "block": 249,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "10419951852483731000"
+      }
+    ]
+  },
+  {
+    "block": 252,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8286122374856020000"
+      }
+    ]
+  },
+  {
+    "block": 255,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "11107173254450949000"
+      }
+    ]
+  },
+  {
+    "block": 258,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8828183421058018000"
+      }
+    ]
+  },
+  {
+    "block": 261,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8673727954799610000"
+      }
+    ]
+  },
+  {
+    "block": 264,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9986828194086366000"
+      }
+    ]
+  },
+  {
+    "block": 265,
+    "events": [
+      {
+        "event": "withdrawOrder",
+        "id": 2
+      },
+      {
+        "event": "swapBToA",
+        "amount": "9329445166239985000"
+      }
+    ]
+  },
+  {
+    "block": 267,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8984633593175740000"
+      }
+    ]
+  },
+  {
+    "block": 270,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8351633591682232000"
+      }
+    ]
+  },
+  {
+    "block": 273,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "14859906272443190000"
+      }
+    ]
+  },
+  {
+    "block": 276,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "15969071950865121000"
+      }
+    ]
+  },
+  {
+    "block": 277,
+    "events": [
+      {
+        "event": "executeAllVirtualOrders"
+      }
+    ]
+  },
+  {
+    "block": 279,
+    "events": [
+      {
+        "event": "longTermSwapAToB",
+        "amount": "140223779483703420000",
+        "id": 6,
+        "intervals": 21
+      },
+      {
+        "event": "swapBToA",
+        "amount": "9772779436567237000"
+      },
+      {
+        "event": "swapAToB",
+        "amount": "16475072802430702000"
+      }
+    ]
+  },
+  {
+    "block": 282,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8447527169792163000"
+      }
+    ]
+  },
+  {
+    "block": 285,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9316929473874770000"
+      }
+    ]
+  },
+  {
+    "block": 287,
+    "events": [
+      {
+        "event": "provideLiquidity",
+        "amount": "759000000000000000000",
+        "liquidityId": 2
+      },
+      {
+        "event": "swapBToA",
+        "amount": "7693191946117831000"
+      }
+    ]
+  },
+  {
+    "block": 288,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8225443494287639000"
+      }
+    ]
+  },
+  {
+    "block": 291,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "13796700375868670000"
+      }
+    ]
+  },
+  {
+    "block": 293,
+    "events": [
+      {
+        "event": "removeLiquidity",
+        "amount": "721000000000000000000",
+        "liquidityId": 2
+      },
+      {
+        "event": "swapBToA",
+        "amount": "10737808878389867000"
+      }
+    ]
+  },
+  {
+    "block": 294,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8910585202718318000"
+      }
+    ]
+  },
+  {
+    "block": 297,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8569782382249475000"
+      }
+    ]
+  },
+  {
+    "block": 300,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8243116405906024000"
+      }
+    ]
+  },
+  {
+    "block": 303,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "16095988775469486000"
+      }
+    ]
+  },
+  {
+    "block": 306,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "12966935621376708000"
+      }
+    ]
+  },
+  {
+    "block": 309,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "7769830878241837000"
+      }
+    ]
+  },
+  {
+    "block": 310,
+    "events": [
+      {
+        "event": "withdrawOrder",
+        "id": 6
+      },
+      {
+        "event": "swapAToB",
+        "amount": "13872535209960976000"
+      }
+    ]
+  },
+  {
+    "block": 312,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "15900802251263483000"
+      }
+    ]
+  },
+  {
+    "block": 315,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "10039756316163038000"
+      }
+    ]
+  },
+  {
+    "block": 318,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "13388361403776486000"
+      }
+    ]
+  },
+  {
+    "block": 321,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9585002853185708000"
+      }
+    ]
+  },
+  {
+    "block": 324,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8331067717833466000"
+      }
+    ]
+  },
+  {
+    "block": 325,
+    "events": [
+      {
+        "event": "longTermSwapBToA",
+        "amount": "86245229430017190000",
+        "id": 7,
+        "intervals": 21
+      },
+      {
+        "event": "swapBToA",
+        "amount": "8746101879479564000"
+      }
+    ]
+  },
+  {
+    "block": 327,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "10757995782998218000"
+      }
+    ]
+  },
+  {
+    "block": 330,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9233369792771507000"
+      }
+    ]
+  },
+  {
+    "block": 333,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "15862510085410320000"
+      }
+    ]
+  },
+  {
+    "block": 336,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "11128133463727188000"
+      }
+    ]
+  },
+  {
+    "block": 339,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9572700254506840000"
+      }
+    ]
+  },
+  {
+    "block": 342,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9606021506847505000"
+      }
+    ]
+  },
+  {
+    "block": 345,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "10161466476919369000"
+      }
+    ]
+  },
+  {
+    "block": 348,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8385065844265390000"
+      }
+    ]
+  },
+  {
+    "block": 351,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9188972786999873000"
+      }
+    ]
+  },
+  {
+    "block": 354,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "10098614623032843000"
+      }
+    ]
+  },
+  {
+    "block": 357,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "7963935618801209000"
+      }
+    ]
+  },
+  {
+    "block": 360,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9914524447449313000"
+      }
+    ]
+  },
+  {
+    "block": 363,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "13997863569812866000"
+      }
+    ]
+  },
+  {
+    "block": 366,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "14595564096245667000"
+      }
+    ]
+  },
+  {
+    "block": 369,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8891823630229740000"
+      }
+    ]
+  },
+  {
+    "block": 371,
+    "events": [
+      {
+        "event": "longTermSwapAToB",
+        "amount": "167469980374394000000",
+        "id": 8,
+        "intervals": 21
+      },
+      {
+        "event": "swapBToA",
+        "amount": "9817708851168954000"
+      }
+    ]
+  },
+  {
+    "block": 372,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9728692059256340000"
+      }
+    ]
+  },
+  {
+    "block": 375,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "14593112436036190000"
+      }
+    ]
+  },
+  {
+    "block": 378,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "14018769306100959000"
+      }
+    ]
+  },
+  {
+    "block": 381,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "15437073915841072000"
+      }
+    ]
+  },
+  {
+    "block": 384,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9931033863917550000"
+      }
+    ]
+  },
+  {
+    "block": 387,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "10111074360095845000"
+      }
+    ]
+  },
+  {
+    "block": 390,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "13981753924563812000"
+      }
+    ]
+  },
+  {
+    "block": 393,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "10979872229405021000"
+      }
+    ]
+  },
+  {
+    "block": 396,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8019748325678616000"
+      }
+    ]
+  },
+  {
+    "block": 399,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9377980267817760000"
+      }
+    ]
+  },
+  {
+    "block": 402,
+    "events": [
+      {
+        "event": "withdrawOrder",
+        "id": 8
+      },
+      {
+        "event": "swapAToB",
+        "amount": "14802640239461644000"
+      },
+      {
+        "event": "swapAToB",
+        "amount": "15515373163250970000"
+      }
+    ]
+  },
+  {
+    "block": 405,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "10962227085928520000"
+      }
+    ]
+  },
+  {
+    "block": 407,
+    "events": [
+      {
+        "event": "withdrawOrder",
+        "id": 4
+      },
+      {
+        "event": "swapBToA",
+        "amount": "8611959561689085000"
+      }
+    ]
+  },
+  {
+    "block": 408,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "16531476983523152000"
+      }
+    ]
+  },
+  {
+    "block": 411,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "10538636098800884000"
+      }
+    ]
+  },
+  {
+    "block": 414,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "10273582059431734000"
+      }
+    ]
+  },
+  {
+    "block": 417,
+    "events": [
+      {
+        "event": "longTermSwapBToA",
+        "amount": "103245378615139590000",
+        "id": 9,
+        "intervals": 19
+      },
+      {
+        "event": "swapBToA",
+        "amount": "8152999717139883000"
+      },
+      {
+        "event": "swapAToB",
+        "amount": "13220543914929960000"
+      }
+    ]
+  },
+  {
+    "block": 420,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8483489369606167000"
+      }
+    ]
+  },
+  {
+    "block": 423,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "14974257185494654000"
+      }
+    ]
+  },
+  {
+    "block": 426,
+    "events": [
+      {
+        "event": "provideLiquidity",
+        "amount": "847000000000000000000",
+        "liquidityId": 3
+      },
+      {
+        "event": "swapBToA",
+        "amount": "9351744835087803000"
+      },
+      {
+        "event": "swapAToB",
+        "amount": "14338466671874643000"
+      }
+    ]
+  },
+  {
+    "block": 429,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9791517706036448000"
+      }
+    ]
+  },
+  {
+    "block": 432,
+    "events": [
+      {
+        "event": "removeLiquidity",
+        "amount": "804000000000000000000",
+        "liquidityId": 3
+      },
+      {
+        "event": "swapAToB",
+        "amount": "16183463911132850000"
+      },
+      {
+        "event": "swapAToB",
+        "amount": "13879130911071677000"
+      }
+    ]
+  },
+  {
+    "block": 435,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "14474680088594987000"
+      }
+    ]
+  },
+  {
+    "block": 438,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8820681242425655000"
+      }
+    ]
+  },
+  {
+    "block": 441,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "6802280532656853000"
+      }
+    ]
+  },
+  {
+    "block": 444,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "10710489621895746000"
+      }
+    ]
+  },
+  {
+    "block": 447,
+    "events": [
+      {
+        "event": "executeAllVirtualOrders"
+      },
+      {
+        "event": "swapBToA",
+        "amount": "10091386887596485000"
+      }
+    ]
+  },
+  {
+    "block": 450,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "16709206033115237000"
+      }
+    ]
+  },
+  {
+    "block": 453,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "10387400317481745000"
+      }
+    ]
+  },
+  {
+    "block": 456,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8206949186873574000"
+      }
+    ]
+  },
+  {
+    "block": 459,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8548985920969825000"
+      }
+    ]
+  },
+  {
+    "block": 462,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "15340670643108480000"
+      }
+    ]
+  },
+  {
+    "block": 463,
+    "events": [
+      {
+        "event": "longTermSwapAToB",
+        "amount": "157237768739958680000",
+        "id": 10,
+        "intervals": 21
+      },
+      {
+        "event": "withdrawOrder",
+        "id": 5
+      },
+      {
+        "event": "swapBToA",
+        "amount": "7392399215719626000"
+      }
+    ]
+  },
+  {
+    "note": "Moved cancel here because order expired by 788",
+    "block": 465,
+    "events": [
+      {
+        "event": "cancelOrder",
+        "id": 10
+      },
+      {
+        "event": "swapBToA",
+        "amount": "9499803889944253000"
+      }
+    ]
+  },
+  {
+    "block": 767,
+    "events": [
+      {
+        "event": "provideLiquidity",
+        "amount": "842000000000000000000",
+        "liquidityId": 4
+      },
+      {
+        "event": "longTermSwapAToB",
+        "amount": "135625873770247350000",
+        "id": 11,
+        "intervals": 21
+      },
+      {
+        "event": "swapAToB",
+        "amount": "15896497067393392000"
+      }
+    ]
+  },
+  {
+    "block": 770,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "15709455665719322000"
+      }
+    ]
+  },
+  {
+    "block": 773,
+    "events": [
+      {
+        "event": "removeLiquidity",
+        "amount": "799000000000000000000",
+        "liquidityId": 4
+      },
+      {
+        "event": "withdrawOrder",
+        "id": 7
+      },
+      {
+        "event": "swapBToA",
+        "amount": "9018333165050837000"
+      },
+      {
+        "event": "swapAToB",
+        "amount": "16650989483701520000"
+      }
+    ]
+  },
+  {
+    "block": 776,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "14567233954096750000"
+      }
+    ]
+  },
+  {
+    "block": 777,
+    "events": [
+      {
+        "event": "withdrawOrder",
+        "id": 9
+      },
+      {
+        "event": "swapBToA",
+        "amount": "8965858683529445000"
+      }
+    ]
+  },
+  {
+    "block": 778,
+    "events": [
+      {
+        "event": "executeAllVirtualOrders"
+      }
+    ]
+  },
+  {
+    "block": 779,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9694197483526063000"
+      }
+    ]
+  },
+  {
+    "block": 780,
+    "events": [
+      {
+        "event": "executeAllVirtualOrders"
+      }
+    ]
+  },
+  {
+    "block": 782,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "10485199902533592000"
+      }
+    ]
+  },
+  {
+    "block": 785,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8825552055788117000"
+      }
+    ]
+  },
+  {
+    "block": 786,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "17445760397803642000"
+      }
+    ]
+  },
+  {
+    "block": 788,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "13798609005187306000"
+      }
+    ]
+  },
+  {
+    "block": 791,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8635526079743636000"
+      }
+    ]
+  },
+  {
+    "block": 794,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "15254341067959302000"
+      }
+    ]
+  },
+  {
+    "block": 797,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8290310166939918000"
+      }
+    ]
+  },
+  {
+    "block": 800,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8024942578852523000"
+      }
+    ]
+  },
+  {
+    "block": 803,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9385254555212866000"
+      }
+    ]
+  },
+  {
+    "block": 806,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "7790805870082095000"
+      }
+    ]
+  },
+  {
+    "block": 809,
+    "events": [
+      {
+        "event": "cancelOrder",
+        "id": 11
+      },
+      {
+        "event": "swapBToA",
+        "amount": "10452205891099354000"
+      },
+      {
+        "event": "swapBToA",
+        "amount": "9026469624335475000"
+      }
+    ]
+  },
+  {
+    "block": 812,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9373148642841103000"
+      }
+    ]
+  },
+  {
+    "block": 813,
+    "events": [
+      {
+        "event": "longTermSwapAToB",
+        "amount": "135471513861216750000",
+        "id": 12,
+        "intervals": 20
+      },
+      {
+        "event": "swapBToA",
+        "amount": "7710055057395182500"
+      }
+    ]
+  },
+  {
+    "block": 815,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9127848815400501000"
+      }
+    ]
+  },
+  {
+    "block": 818,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9491123852547265000"
+      }
+    ]
+  },
+  {
+    "block": 821,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "10633858846308986000"
+      }
+    ]
+  },
+  {
+    "block": 824,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "13480658640337388000"
+      }
+    ]
+  },
+  {
+    "block": 827,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "10195222226000034000"
+      }
+    ]
+  },
+  {
+    "block": 830,
+    "events": [
+      {
+        "event": "executeAllVirtualOrders"
+      },
+      {
+        "event": "swapBToA",
+        "amount": "9465994609105612000"
+      }
+    ]
+  },
+  {
+    "block": 833,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "16939177462806550000"
+      }
+    ]
+  },
+  {
+    "block": 836,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "10261811113516577000"
+      }
+    ]
+  },
+  {
+    "block": 839,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "15580471703761994000"
+      }
+    ]
+  },
+  {
+    "block": 842,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "7499470293576015000"
+      }
+    ]
+  },
+  {
+    "block": 845,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8227534233749969000"
+      }
+    ]
+  },
+  {
+    "block": 848,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8712338781528615000"
+      }
+    ]
+  },
+  {
+    "block": 851,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "14093762735037812000"
+      }
+    ]
+  },
+  {
+    "block": 853,
+    "events": [
+      {
+        "event": "cancelOrder",
+        "id": 12
+      },
+      {
+        "event": "swapAToB",
+        "amount": "12121439527408318000"
+      }
+    ]
+  },
+  {
+    "block": 854,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9388643889660539000"
+      }
+    ]
+  },
+  {
+    "block": 857,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8841453161175611000"
+      }
+    ]
+  },
+  {
+    "block": 859,
+    "events": [
+      {
+        "event": "longTermSwapAToB",
+        "amount": "165916571692240780000",
+        "id": 13,
+        "intervals": 18
+      },
+      {
+        "event": "swapAToB",
+        "amount": "15692987217477837000"
+      }
+    ]
+  },
+  {
+    "block": 860,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "15191932582449265000"
+      }
+    ]
+  },
+  {
+    "block": 863,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9423011902651620000"
+      }
+    ]
+  },
+  {
+    "block": 866,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "10273524925245937000"
+      }
+    ]
+  },
+  {
+    "block": 869,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9807531234807294000"
+      }
+    ]
+  },
+  {
+    "block": 872,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8207592518181297000"
+      }
+    ]
+  },
+  {
+    "block": 875,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "15607975573133553000"
+      }
+    ]
+  },
+  {
+    "block": 878,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "15827670578616097000"
+      }
+    ]
+  },
+  {
+    "block": 881,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "14290831181044481000"
+      }
+    ]
+  },
+  {
+    "block": 884,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "7118231453255518000"
+      }
+    ]
+  },
+  {
+    "block": 887,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9064690643768412000"
+      }
+    ]
+  },
+  {
+    "block": 890,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9624721308023670000"
+      }
+    ]
+  },
+  {
+    "block": 893,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "15103286208319135000"
+      }
+    ]
+  },
+  {
+    "block": 896,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9722131374179895000"
+      }
+    ]
+  },
+  {
+    "block": 899,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "15554492365074013000"
+      }
+    ]
+  },
+  {
+    "block": 902,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "10849099524281502000"
+      }
+    ]
+  },
+  {
+    "block": 905,
+    "events": [
+      {
+        "event": "longTermSwapAToB",
+        "amount": "161833342460437700000",
+        "id": 14,
+        "intervals": 19
+      },
+      {
+        "event": "swapAToB",
+        "amount": "14746326801601590000"
+      },
+      {
+        "event": "swapBToA",
+        "amount": "10057504919535292000"
+      }
+    ]
+  },
+  {
+    "block": 906,
+    "events": [
+      {
+        "event": "provideLiquidity",
+        "amount": "817000000000000000000",
+        "liquidityId": 5
+      },
+      {
+        "event": "swapBToA",
+        "amount": "9190969762282764000"
+      }
+    ]
+  },
+  {
+    "block": 908,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8014649951503044000"
+      }
+    ]
+  },
+  {
+    "block": 911,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "14945231043356557000"
+      }
+    ]
+  },
+  {
+    "block": 914,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8478414791070966000"
+      }
+    ]
+  },
+  {
+    "block": 917,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "10508852668802867000"
+      }
+    ]
+  },
+  {
+    "block": 920,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "10230007699751894000"
+      }
+    ]
+  },
+  {
+    "block": 923,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "15055142901523663000"
+      }
+    ]
+  },
+  {
+    "block": 925,
+    "events": [
+      {
+        "event": "executeAllVirtualOrders"
+      }
+    ]
+  },
+  {
+    "block": 926,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9670948125644896000"
+      }
+    ]
+  },
+  {
+    "block": 929,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8944101106132350000"
+      }
+    ]
+  },
+  {
+    "block": 932,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "10512428271480244000"
+      }
+    ]
+  },
+  {
+    "block": 935,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "14993296259075672000"
+      }
+    ]
+  },
+  {
+    "block": 938,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "15661782558676089000"
+      }
+    ]
+  },
+  {
+    "block": 941,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "15999691261274885000"
+      }
+    ]
+  },
+  {
+    "block": 944,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "13461981640840882000"
+      }
+    ]
+  },
+  {
+    "block": 947,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9014334361089840000"
+      }
+    ]
+  },
+  {
+    "block": 950,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "16894413052255537000"
+      }
+    ]
+  },
+  {
+    "block": 951,
+    "events": [
+      {
+        "event": "longTermSwapAToB",
+        "amount": "147249524522241670000",
+        "id": 15,
+        "intervals": 21
+      },
+      {
+        "event": "swapAToB",
+        "amount": "15156676984549152000"
+      }
+    ]
+  },
+  {
+    "block": 953,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "5836014959027794500"
+      }
+    ]
+  },
+  {
+    "block": 956,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9341326069373290000"
+      }
+    ]
+  },
+  {
+    "block": 959,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "17141178634186154000"
+      }
+    ]
+  },
+  {
+    "block": 962,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8768250163596216000"
+      }
+    ]
+  },
+  {
+    "block": 965,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "13262841186971903000"
+      }
+    ]
+  },
+  {
+    "block": 968,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "13975975729060352000"
+      }
+    ]
+  },
+  {
+    "block": 971,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "14636639466346990000"
+      }
+    ]
+  },
+  {
+    "block": 974,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9249028619289675000"
+      }
+    ]
+  },
+  {
+    "block": 977,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "15101406377288475000"
+      }
+    ]
+  },
+  {
+    "block": 980,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "14377185962757002000"
+      }
+    ]
+  },
+  {
+    "block": 983,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "7992109397657078000"
+      }
+    ]
+  },
+  {
+    "block": 986,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8921056183806213000"
+      }
+    ]
+  },
+  {
+    "block": 989,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8158747601969928000"
+      }
+    ]
+  },
+  {
+    "block": 992,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8774077961305801000"
+      }
+    ]
+  },
+  {
+    "block": 995,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8528616900553718000"
+      }
+    ]
+  },
+  {
+    "block": 997,
+    "events": [
+      {
+        "event": "longTermSwapAToB",
+        "amount": "117744096052086580000",
+        "id": 16,
+        "intervals": 17
+      },
+      {
+        "event": "swapBToA",
+        "amount": "8149342955600941000"
+      }
+    ]
+  },
+  {
+    "block": 998,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "13901955719624148000"
+      }
+    ]
+  },
+  {
+    "block": 1001,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9183907117188586000"
+      }
+    ]
+  },
+  {
+    "block": 1004,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8673361275787677000"
+      }
+    ]
+  },
+  {
+    "block": 1007,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "14851536046288683000"
+      }
+    ]
+  },
+  {
+    "block": 1010,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8453878786900310000"
+      }
+    ]
+  },
+  {
+    "block": 1013,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8603395784429692000"
+      }
+    ]
+  },
+  {
+    "block": 1016,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "15849467672238722000"
+      }
+    ]
+  },
+  {
+    "block": 1019,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "14247094645039747000"
+      }
+    ]
+  },
+  {
+    "block": 1022,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8458496790316959000"
+      }
+    ]
+  },
+  {
+    "block": 1025,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "10275544714651996000"
+      }
+    ]
+  },
+  {
+    "block": 1028,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "10625326937998281000"
+      }
+    ]
+  },
+  {
+    "block": 1031,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9402607272875702000"
+      }
+    ]
+  },
+  {
+    "block": 1034,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "14388075837341820000"
+      }
+    ]
+  },
+  {
+    "block": 1037,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9431642211766103000"
+      }
+    ]
+  },
+  {
+    "block": 1040,
+    "events": [
+      {
+        "event": "executeAllVirtualOrders"
+      },
+      {
+        "event": "swapBToA",
+        "amount": "8525337495201343000"
+      }
+    ]
+  },
+  {
+    "block": 1043,
+    "events": [
+      {
+        "event": "longTermSwapAToB",
+        "amount": "139564584881675980000",
+        "id": 17,
+        "intervals": 21
+      },
+      {
+        "event": "swapBToA",
+        "amount": "11213585776875469000"
+      },
+      {
+        "event": "swapBToA",
+        "amount": "9251209169653198000"
+      }
+    ]
+  },
+  {
+    "block": 1045,
+    "events": [
+      {
+        "event": "provideLiquidity",
+        "amount": "754000000000000000000",
+        "liquidityId": 6
+      },
+      {
+        "event": "swapBToA",
+        "amount": "9005786227239708000"
+      }
+    ]
+  },
+  {
+    "block": 1046,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9365984734755774000"
+      }
+    ]
+  },
+  {
+    "block": 1049,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "15350899819876293000"
+      }
+    ]
+  },
+  {
+    "block": 1052,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9682816295512028000"
+      }
+    ]
+  },
+  {
+    "block": 1055,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "15300306581356777000"
+      }
+    ]
+  },
+  {
+    "block": 1058,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "15142675396484115000"
+      }
+    ]
+  },
+  {
+    "block": 1061,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "15705755123380616000"
+      }
+    ]
+  },
+  {
+    "block": 1064,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "10539772327093916000"
+      }
+    ]
+  },
+  {
+    "block": 1067,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "14709283049205840000"
+      }
+    ]
+  },
+  {
+    "block": 1070,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "14982657890871366000"
+      }
+    ]
+  },
+  {
+    "block": 1073,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "16108615158711630000"
+      }
+    ]
+  },
+  {
+    "block": 1076,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8364853304975544000"
+      }
+    ]
+  },
+  {
+    "block": 1079,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9808589289080178000"
+      }
+    ]
+  },
+  {
+    "block": 1082,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8926166937039540000"
+      }
+    ]
+  },
+  {
+    "block": 1085,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "10715509308571619000"
+      }
+    ]
+  },
+  {
+    "block": 1088,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9324734038838516000"
+      }
+    ]
+  },
+  {
+    "block": 1089,
+    "events": [
+      {
+        "event": "longTermSwapBToA",
+        "amount": "78273081707844510000",
+        "id": 18,
+        "intervals": 21
+      },
+      {
+        "event": "swapAToB",
+        "amount": "15311848129067500000"
+      }
+    ]
+  },
+  {
+    "block": 1091,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "10074864939428920000"
+      }
+    ]
+  },
+  {
+    "block": 1094,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9935848102723341000"
+      }
+    ]
+  },
+  {
+    "block": 1097,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9996673890285773000"
+      }
+    ]
+  },
+  {
+    "block": 1100,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9796505722644724000"
+      }
+    ]
+  },
+  {
+    "block": 1103,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8816128230173634000"
+      }
+    ]
+  },
+  {
+    "block": 1106,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "14163214092079722000"
+      }
+    ]
+  },
+  {
+    "block": 1109,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "15823457497932475000"
+      }
+    ]
+  },
+  {
+    "block": 1112,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "7660647180058286500"
+      }
+    ]
+  },
+  {
+    "block": 1115,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "7759307716758316000"
+      }
+    ]
+  },
+  {
+    "block": 1118,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9073682542688765000"
+      }
+    ]
+  },
+  {
+    "block": 1121,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9142147329906983000"
+      }
+    ]
+  },
+  {
+    "block": 1124,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "7106132611686766000"
+      }
+    ]
+  },
+  {
+    "block": 1127,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "7870983402291237500"
+      }
+    ]
+  },
+  {
+    "block": 1130,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "7709798668720929000"
+      }
+    ]
+  },
+  {
+    "block": 1133,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "7232868753251249000"
+      }
+    ]
+  },
+  {
+    "block": 1135,
+    "events": [
+      {
+        "event": "longTermSwapAToB",
+        "amount": "172775558184089250000",
+        "id": 19,
+        "intervals": 22
+      },
+      {
+        "event": "swapAToB",
+        "amount": "16634087565294763000"
+      }
+    ]
+  },
+  {
+    "block": 1136,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "17191911601633390000"
+      }
+    ]
+  },
+  {
+    "block": 1139,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9106909430578146000"
+      }
+    ]
+  },
+  {
+    "block": 1142,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9330633105910940000"
+      }
+    ]
+  },
+  {
+    "block": 1145,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "15323423466674146000"
+      }
+    ]
+  },
+  {
+    "block": 1148,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8942617441461845000"
+      }
+    ]
+  },
+  {
+    "block": 1151,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "10065932072426540000"
+      }
+    ]
+  },
+  {
+    "block": 1154,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "7608780746966502000"
+      }
+    ]
+  },
+  {
+    "block": 1157,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "11460199983964270000"
+      }
+    ]
+  },
+  {
+    "block": 1160,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9638195357840637000"
+      }
+    ]
+  },
+  {
+    "block": 1163,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "15605059744789380000"
+      }
+    ]
+  },
+  {
+    "block": 1166,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "14463428881073545000"
+      }
+    ]
+  },
+  {
+    "block": 1169,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "7345905156032463500"
+      }
+    ]
+  },
+  {
+    "block": 1172,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "14933671844880637000"
+      }
+    ]
+  },
+  {
+    "block": 1175,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9852245654995098000"
+      }
+    ]
+  },
+  {
+    "block": 1178,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "14705992585223955000"
+      }
+    ]
+  },
+  {
+    "block": 1181,
+    "events": [
+      {
+        "event": "longTermSwapAToB",
+        "amount": "163219133319811700000",
+        "id": 20,
+        "intervals": 19
+      },
+      {
+        "event": "swapBToA",
+        "amount": "6620920931735780000"
+      },
+      {
+        "event": "swapAToB",
+        "amount": "14600484263605372000"
+      }
+    ]
+  },
+  {
+    "block": 1184,
+    "events": [
+      {
+        "event": "provideLiquidity",
+        "amount": "705000000000000000000",
+        "liquidityId": 7
+      },
+      {
+        "event": "swapBToA",
+        "amount": "9143773034078869000"
+      },
+      {
+        "event": "swapBToA",
+        "amount": "7548123828974743000"
+      }
+    ]
+  },
+  {
+    "block": 1187,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "14961488323519326000"
+      }
+    ]
+  },
+  {
+    "block": 1190,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "10810941793258165000"
+      }
+    ]
+  },
+  {
+    "block": 1193,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "10943085865572200000"
+      }
+    ]
+  },
+  {
+    "block": 1196,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "7169471239012572000"
+      }
+    ]
+  },
+  {
+    "block": 1199,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "10583526637313987000"
+      }
+    ]
+  },
+  {
+    "block": 1202,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "15533246446024227000"
+      }
+    ]
+  },
+  {
+    "block": 1205,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9454838638447809000"
+      }
+    ]
+  },
+  {
+    "block": 1208,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "15852711147758790000"
+      }
+    ]
+  },
+  {
+    "block": 1211,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8339575710268022000"
+      }
+    ]
+  },
+  {
+    "block": 1214,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9724672819145454000"
+      }
+    ]
+  },
+  {
+    "block": 1217,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "15178698704945319000"
+      }
+    ]
+  },
+  {
+    "block": 1220,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "6802609694326081000"
+      }
+    ]
+  },
+  {
+    "block": 1223,
+    "events": [
+      {
+        "event": "executeAllVirtualOrders"
+      },
+      {
+        "event": "swapBToA",
+        "amount": "8996806530960110000"
+      }
+    ]
+  },
+  {
+    "block": 1226,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9552206807062653000"
+      }
+    ]
+  },
+  {
+    "block": 1227,
+    "events": [
+      {
+        "event": "longTermSwapBToA",
+        "amount": "93880133031646750000",
+        "id": 21,
+        "intervals": 22
+      },
+      {
+        "event": "swapAToB",
+        "amount": "15729889322318742000"
+      }
+    ]
+  },
+  {
+    "block": 1229,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9894543327622728000"
+      }
+    ]
+  },
+  {
+    "block": 1533,
+    "events": [
+      {
+        "event": "provideLiquidity",
+        "amount": "759000000000000000000",
+        "liquidityId": 8
+      },
+      {
+        "event": "swapAToB",
+        "amount": "12983656865501970000"
+      }
+    ]
+  },
+  {
+    "block": 1537,
+    "events": [
+      {
+        "event": "longTermSwapAToB",
+        "amount": "140501532449076900000",
+        "id": 22,
+        "intervals": 19
+      }
+    ]
+  },
+  {
+    "block": 1539,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8313676545891036000"
+      }
+    ]
+  },
+  {
+    "block": 1542,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "15840865064467646000"
+      }
+    ]
+  },
+  {
+    "block": 1545,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "13904858379417403000"
+      }
+    ]
+  },
+  {
+    "block": 1548,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9444631451326057000"
+      }
+    ]
+  },
+  {
+    "block": 1551,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9520871806412831000"
+      }
+    ]
+  },
+  {
+    "block": 1554,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9261451768092641000"
+      }
+    ]
+  },
+  {
+    "block": 1557,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8772243024191662000"
+      }
+    ]
+  },
+  {
+    "block": 1560,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8614969366570560000"
+      }
+    ]
+  },
+  {
+    "block": 1563,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "13319257162187668000"
+      }
+    ]
+  },
+  {
+    "block": 1566,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "7692208142191341000"
+      }
+    ]
+  },
+  {
+    "block": 1569,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "14860904378553794000"
+      }
+    ]
+  },
+  {
+    "block": 1572,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8873257595039378000"
+      }
+    ]
+  },
+  {
+    "block": 1575,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "12736412065276959000"
+      }
+    ]
+  },
+  {
+    "block": 1578,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9440190142895338000"
+      }
+    ]
+  },
+  {
+    "block": 1581,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9947670552569383000"
+      }
+    ]
+  },
+  {
+    "block": 1583,
+    "events": [
+      {
+        "event": "longTermSwapAToB",
+        "amount": "152446057399408830000",
+        "id": 23,
+        "intervals": 22
+      }
+    ]
+  },
+  {
+    "block": 1584,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "10677908450810245000"
+      }
+    ]
+  },
+  {
+    "block": 1587,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "15877232691167794000"
+      }
+    ]
+  },
+  {
+    "block": 1590,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8468209100514725000"
+      }
+    ]
+  },
+  {
+    "block": 1593,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "14911483693540532000"
+      }
+    ]
+  },
+  {
+    "block": 1596,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9575409367184822000"
+      }
+    ]
+  },
+  {
+    "block": 1599,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "10658928649570692000"
+      }
+    ]
+  },
+  {
+    "block": 1602,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "16477020621312740000"
+      }
+    ]
+  },
+  {
+    "block": 1605,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "16005341381186770000"
+      }
+    ]
+  },
+  {
+    "block": 1608,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "8107020565096256000"
+      }
+    ]
+  },
+  {
+    "block": 1611,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9877025896257470000"
+      }
+    ]
+  },
+  {
+    "block": 1614,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "15439585324059255000"
+      }
+    ]
+  },
+  {
+    "block": 1617,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "7443336652201678000"
+      }
+    ]
+  },
+  {
+    "block": 1620,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "16361843964798073000"
+      }
+    ]
+  },
+  {
+    "block": 1623,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "16572012515049610000"
+      }
+    ]
+  },
+  {
+    "block": 1626,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9263037769655048000"
+      }
+    ]
+  },
+  {
+    "block": 1629,
+    "events": [
+      {
+        "event": "longTermSwapBToA",
+        "amount": "98870072085315500000",
+        "id": 24,
+        "intervals": 20
+      },
+      {
+        "event": "swapBToA",
+        "amount": "7829109457520061000"
+      }
+    ]
+  },
+  {
+    "block": 1632,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "14820968661595000000"
+      }
+    ]
+  },
+  {
+    "block": 1635,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "17098777091640880000"
+      }
+    ]
+  },
+  {
+    "block": 1638,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "15452231145689256000"
+      }
+    ]
+  },
+  {
+    "block": 1641,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9563080920479510000"
+      }
+    ]
+  },
+  {
+    "block": 1644,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "14719519146726391000"
+      }
+    ]
+  },
+  {
+    "block": 1647,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9544681053122204000"
+      }
+    ]
+  },
+  {
+    "block": 1650,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "15020089329739594000"
+      }
+    ]
+  },
+  {
+    "block": 1653,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "10074813696511963000"
+      }
+    ]
+  },
+  {
+    "block": 1656,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "14164711213526750000"
+      }
+    ]
+  },
+  {
+    "block": 1659,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "14897149521411485000"
+      }
+    ]
+  },
+  {
+    "block": 1662,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9422141397489284000"
+      }
+    ]
+  },
+  {
+    "block": 1665,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9669623752928551000"
+      }
+    ]
+  },
+  {
+    "block": 1668,
+    "events": [
+      {
+        "event": "swapBToA",
+        "amount": "9546316036648722000"
+      }
+    ]
+  },
+  {
+    "block": 1671,
+    "events": [
+      {
+        "event": "swapAToB",
+        "amount": "14564885142968489000"
+      }
+    ]
+  },
+  {
+    "block": 1672,
+    "events": [
+      {
+        "event": "provideLiquidity",
+        "amount": "750000000000000000000",
+        "liquidityId": 9
+      }
+    ]
+  },
+  {
+    "block": 1675,
+    "events": [
+      {
+        "event": "longTermSwapAToB",
+        "amount": "127696070812915380000",
+        "id": 25,
+        "intervals": 19
+      }
+    ]
+  },
+  {
+    "block": 1721,
+    "events": [
+      {
+        "event": "longTermSwapAToB",
+        "amount": "137375778748510900000",
+        "id": 26,
+        "intervals": 18
+      }
+    ]
+  },
+  {
+    "block": 1767,
+    "events": [
+      {
+        "event": "longTermSwapBToA",
+        "amount": "102101896370424240000",
+        "id": 27,
+        "intervals": 17
+      }
+    ]
+  },
+  {
+    "block": 1813,
+    "events": [
+      {
+        "event": "longTermSwapBToA",
+        "amount": "100687492801026800000",
+        "id": 28,
+        "intervals": 21
+      }
+    ]
+  },
+  {
+    "block": 1859,
+    "events": [
+      {
+        "event": "longTermSwapBToA",
+        "amount": "95298776881555400000",
+        "id": 29,
+        "intervals": 22
+      }
+    ]
+  }
+]
