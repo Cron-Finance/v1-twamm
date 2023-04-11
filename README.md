@@ -35,5 +35,8 @@ anvil --no-mining &
 ./runFoundryManualTests.sh
 ```
 
+## Deployement Addresses
+https://docs.cronfi.com/twamm/refrences/deployment-addresses
+
 ## Security Concerns
 Contact us via [e-mail](security@cronfi.com) with subject line - ***CronFi V1: Vulnerability***
