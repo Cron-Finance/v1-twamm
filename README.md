@@ -36,4 +36,4 @@ anvil --no-mining &
 ```
 
 ## Security Concerns
-Contact us via [e-mail] with subject line - ***CronFi V1: Vulnerability***
+Contact us via [e-mail](security@cronfi.com) with subject line - ***CronFi V1: Vulnerability***
