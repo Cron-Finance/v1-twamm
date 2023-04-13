@@ -28,10 +28,6 @@ uint256 constant ASSET_IN = 0;
 uint256 constant ASSET_OUT = 1;
 uint256 constant FIVE_MIN_IN_SEC = 5 * 60;
 
-uint256 constant ZERO_PCT_BP = 0;
-uint256 constant TEN_PCT_BP = 1000;
-uint256 constant MAX_BP = 10000;
-
 /// @title CronFi Relayer Library
 ///
 /// @notice CronFi specific periphery relayer functionality for performing Time Weighted
